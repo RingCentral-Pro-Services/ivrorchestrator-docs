@@ -1,17 +1,17 @@
-# IVR Orchestrator
+![IVR Orchestrator Logo](assets/ivrorchestrator-icon.svg "IVR Orchestrator Logo")
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[IVR Orchestrator](https://ivrorchestrator.ps.ringcentral.com) provides bulk orchestration of IVR prompt media across multiple IVR’s in your [RingCentral®](https://ringcentral.com) account. The IVR prompt is the media that callers hear when calling an IVR before any key presses are performed. A summary of available features includes:
 
-## Commands
+* **Bulk orchestration of IVR prompt media** across multiple IVR’s.
+* **Schedule and combine prompts** to start/end on a specific date/time.
+* Tag IVR names with custom values to **group and filter by business-specific logic** for easier bulk editing.
+* **API integration** to your RingCentral media library and IVR’s.
+* Customizable **role-based access and granular permissions** control.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+See the **quick start** below or visit the [user guide](user-guide/interface) for full documentation.
 
-## Project layout
+# Quick Start
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Requirements
+
+Chrome or Firefox web browser and a [RingCentral®](https://ringcentral.com) account with [Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) enabled.
