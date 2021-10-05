@@ -1,0 +1,6 @@
+site_name: IVR Orchestrator Documentation
+# site_url: https://notifications-documentation.readthedocs.io/en/latest/
+nav:
+    - Getting Started: index.md
+theme:
+  name: readthedocs
