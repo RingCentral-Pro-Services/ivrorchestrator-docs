@@ -38,7 +38,7 @@ This application takes the scheduled prompt media and combines it with the defau
 
 ## Scheduling Prompts
 
-Scheduling a prompt allows you to define a start and end date and time during which the prompt should be active.  You may schedule up to five (5) additional prompts in addition to the default prompt media.
+Scheduling a prompt allows you to define a start and end date and time during which the prompt should be active.  You may create up to five (5) additional prompts in addition to the default prompt media. Any prompt can become a scheduled prompt by defining a start and end date within the IVR Prompt Media's configuration.
 
 * Be aware when scheduling prompts across IVR’s in different time zones or site time formats (12h or 24h). For example, if you are bulk editing IVR’s across both the central and mountain time zones to schedule a prompt, and specify 3pm as the start time, it will be scheduled as 3pm central time and 3pm mountain time (no localization is performed).
 
@@ -49,6 +49,8 @@ IVR’s using the optional naming convention described below are further recogni
 Use the following pattern when naming your IVR’s inside of the RingCentral service portal to take advantage of this feature:
 
 <pre><code>ivrname-key1:value1,key2:value2,key3:value3,key4:value4,key5:value5</code></pre>
+
+Custom columns created in this manner will be indicated by a star icon after the column label in the IVR datatable.
 
 *(64) character maximum, including spaces and punctuation. You may specify up to (5) custom key:value pairs separated by commas.*
 

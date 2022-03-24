@@ -1,6 +1,28 @@
 site_name: IVR Orchestrator Documentation
-# site_url: https://notifications-documentation.readthedocs.io/en/latest/
+# site_url: https://ivr-orchestrator.readthedocs.io/en/latest/
 nav:
     - Getting Started: index.md
+    - General: 
+      - Profile Menu: general/profile-menu.md
+    - IVR: 
+      - IVR Datatable: ivr/ivr-datatable.md
+      - IVR Datatable Actions: ivr/ivr-datatable-actions.md
+      - Optional Naming Conventions: ivr/optional-naming-convention.md
+      - Editing IVR Prompts: ivr/ivr-editing.md
+      - Change Default Prompt: ivr/change-default-prompt.md
+      - Scheduled Prompts: ivr/scheduled-media-editing.md
+      - Bulk Editing IVR Prompts: ivr/bulk-ivr-editing.md
+      - Bulk Change Default Prompt: ivr/bulk-change-default-prompt.md
+      - Bulk Scheduled Prompts: ivr/bulk-scheduled-media-editing.md
+    - Users: 
+      - Users Datatable: users/user-datatable.md
+      - Users Datatable Actions: users/user-datatable-actions.md
+      - Roles Datatable: users/roles-datatable.md
+      - Roles Datatable Actions: users/roles-datatable-actions.md
+      - Editing Role Permissions: users/editing-role-permissions.md
+    - Media: 
+      - Media Datatable: media/media-datatable.md
+      - Media Datatable Actions: media/media-datatable-actions.md
+      - Import New Media: media/import-new-media.md
 theme:
   name: readthedocs
