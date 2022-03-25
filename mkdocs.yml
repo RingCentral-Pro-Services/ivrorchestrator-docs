@@ -12,8 +12,6 @@ nav:
       - Change Default Prompt: ivr/change-default-prompt.md
       - Scheduled Prompts: ivr/scheduled-media-editing.md
       - Bulk Editing IVR Prompts: ivr/bulk-ivr-editing.md
-      - Bulk Change Default Prompt: ivr/bulk-change-default-prompt.md
-      - Bulk Scheduled Prompts: ivr/bulk-scheduled-media-editing.md
     - Users: 
       - Users Datatable: users/user-datatable.md
       - Users Datatable Actions: users/user-datatable-actions.md

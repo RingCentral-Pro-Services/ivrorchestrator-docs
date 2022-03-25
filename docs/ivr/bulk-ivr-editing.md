@@ -1,51 +1,33 @@
-Bulk editing many IVRs is very similar to editing individual IVRs but with a few key differences. To engage a bulk edit of many IVRs, select the items to edit by clicking the checkboxes to the left of the IVR items in the IVR data table and clicking the **Edit** button.
+Bulk editing many IVRs is very similar to editing individual an IVR, but with a few key differences. To engage a bulk edit of many IVRs, select the IVRs to edit by clicking the checkboxes to the left of the IVR items in the IVR data table and clicking the **Edit** button.
+
+* After any bulk actions to IVR Prompts, the application will require you to **Sync Changes** or you will lose your edits.
 
 ## Bulk Editing IVR Prompts
 
-When bulk editing many IVRs and their prompt media, the system will look at each IVR's confgiuration. This means the **combined prompt media file** will be different for IVRs if their default media or scheduled media differs from one and another. 
+When bulk editing many IVRs and their prompt media, the system will look at each IVR's confgiuration. This means the **combined prompt media file** will be different for each IVR in your selection if their default media or scheduled media differs from one and another.
 
-The scheduled media order will also reflect the different IVR prompt configurations in your bulk selections by showing a generic **Scheduled media found** row entry in the scheduled media rows. Due to current limitations we cannot show all prompt configurations for IVRs when bulk editing.
+The default media and the scheduled media order will also reflect the different IVR prompt configurations in your bulk selections. Default media will be displayed as an **empty state** and scheduled media items will be shown as generic **Scheduled media found** row entries in the scheduled media rows if media is found. Due to current limitations we cannot show all prompt configurations for IVRs when bulk editing.
 
-There are several ways you can manipulate and edit the IVR Prompts. You may change the **Default Prompt Media**, add and remove **Scheduled Prompts**, add start/end dates, and manipulate the **Prompt Order**. 
+You can perform the same edit actions on a bulk selection that can be done on an individual IVR editing. Editing the **Default Prompt Media**, add and remove **Scheduled Prompts**, edit start/end dates for these prompts, and manipulate the **Prompt Order**. 
 
-* After any actions to an IVR Prompt, the application will require you to **Sync Changes** or you will lose your edits.
+## Bulk Edit Default Prompt Media
 
-## Default Prompt Media
+Specific default media will not be shown for each IVR configuration when bulk editing but you may still edit this media during a bulk selection. When editing default media in bulk, you will be able to only select one specific media file for the entire selection. After editing, the choosen file will be shown until you sync and navigate away from the current bulk selection.
 
-The default prompt media is the media that is assigned to the IVR by default from your RingCentral account IVR configuration. This media can be added and changed with the IVR Orchestrator, but it must have media present for this application to be able to add scheduled prompt media and sync the changes.
-
-Learn more about [Default Prompt Media](ivr/change-default-prompt).
+* Similar to individual IVR editing, each IVR in your bulk selection must have default media present before you can use this application to apply and sync scheduled media changes.
 
 ## Bulk Editing Scheduled Prompts
 
-Creating new scheduled prompts is one of the primary ways to use the application. This area also identifies the **combined prompt media file** that is dynamically managed and deployed to the IVR(s) when using this application.
+You may add new, remove and rearrange the order of scheduled media items but the system will always take-in account each IVR's configuration when bulk editing and creating the **combined prompt media files**. This means not all IVRs configs will have prompt media in all rows, even if prompt media order reflects the maximum of 5 row items including new scheduled media and **scheduled media found** items. Specific IVR configurations will logically rearrange scheduled prompt rows to fill empty spots lower in the media order list when a configuration has scheduled media missing for a specific row. 
 
-* A combined prompt media file will be present if the IVR Prompt has scheduled media that is dynamically managed by this application.
+* Combined prompt media files will differ between IVRs after a bulk edit, but all configurations will remain dynamically managed by this application and any scheduled start and end dates will still change the combined media file for the the IVR prompt when they occur.
 
-Click the **New Prompt** button in the upper right to add a new prompt to the scheudled media order.
+*Tip: Double check that all IVRs have a default media file assigned in each IVR's prompt configuration before performing a bulk edit of scheduled media. This will ensure you don't encounter the 'default media required' error.*
 
-Learn more about [Scheduling IVR Prompts](ivr/new-ivr-prompt.md).
+## Bulk Delete Scheduled Media Items
 
-## Scheduled Media Order
+You may remove any schduled media items when editing IVR prompt configurations in bulk, but take note that this will remove it from ALL IVR configs in your bulk selection.
 
-The scheduled media order identifies the sequence in which the scheduled media files play. The prompts will play in the order 1,2, 3, 4, 5. The only exception is if your scheduled prompts have start and end times. If the scheduled prompt is not within it's time range, it will be excludued from the dynamically combined file.
-
-## Edit or Delete Scheduled Media Items
-
-To edit or remove a file in the scheduled media order, click the overflow icon on the far right of the item row athen choose **Edit** or **Delete** from the overflow dropdown menu.
+* Scheduled media items will rearrange in the scheduled media order when items lower in the list are removed and item is above it.
 
 *Deleting and editing prompt media will require you to **Sync Changes** before your edits are applied to the IVR(s)*
-
-## Reording Scheudled Media Items
-
-Each scheudled media item row can be moved and re-ordered within this list. Clicking and hold on the move icon, and then drag the item into the desired position.
-
-*The combined prompt media file will always have the default prompt media as the last media file when combined with the scheduled prompts.*
-
-## Syncing Changes
-
-To sync edits and changes to an IVR Prompt, click the **Sync Changes** above the prompt media datatable. This will then combine all prompt media with the default prompt media into a single audio file that will be dynamically deployed to the IVR.
-
-1. Click the **Sync Changes** button after making edits to an IVR Prompt.
-2. Wait for fail or confirmation dialog for results.
-3. If successful, the new combined media file will be deployed to the IVR Prompt and can now be dyncamially managed in this application.
