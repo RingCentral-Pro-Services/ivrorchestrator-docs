@@ -16,7 +16,7 @@ There are several ways you can manipulate and edit the IVR Prompts. You may chan
 
 The default prompt media is the media that is assigned to the IVR by default from your RingCentral account IVR configuration. This media can be added and changed with the IVR Orchestrator, but it must have media present for this application to be able to add scheduled prompt media and sync the changes.
 
-Learn more about [Default Prompt Media](ivr/change-default-prompt).
+Learn more about [Default Prompt Media](ivr/bulk-ivr-editing).
 
 ## Scheduled Prompts
 
@@ -26,7 +26,7 @@ Creating new scheduled prompts is one of the primary ways to use the application
 
 Click the **New Prompt** button in the upper right to add a new prompt to the scheudled media order.
 
-Learn more about [Scheduling IVR Prompts](ivr/scheduled-media-editing).
+Learn more about [Scheduling IVR Prompts](ivr/bulk-ivr-editing).
 
 ## Scheduled Media Order
 

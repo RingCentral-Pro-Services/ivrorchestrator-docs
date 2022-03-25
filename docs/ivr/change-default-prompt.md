@@ -2,7 +2,7 @@ The **default prompt media** is the media file that is assigned to the IVR by de
 
 This application will combine all scheduled media with the default prompt media into a **combined prompt media file**. The default prompt media will always play last in this sequence, with the scheduled media items playing in the order identified by scheduled media list.
 
-Changing the default prompt media can be done in bulk, to more than one IVR at once. Learn more about [Bulk Editing Default Prompts](ivr/bulk-change-default-prompt).
+Changing the default prompt media can be done in bulk, to more than one IVR at once. Learn more about [Bulk Editing Default Prompts](ivr/bulk-ivr-editing).
 
 ## Editing Default Prompt Media
 

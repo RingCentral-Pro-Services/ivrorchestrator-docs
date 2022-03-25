@@ -2,7 +2,7 @@ Scheduling prompt media allows you to add prompt media that will play automatica
 
 These features can be very useful when needing to change many IVRs, and their prompts, at one time or to schedule prompts to play at certain times and dates.
 
-Learn more about [Bulk Editing Scheudled Prompts](ivr/bulk-scheduled-media-editing) for many IVRs at one time.
+Learn more about [Bulk Editing Scheudled Prompts](ivr/bulk-ivr-editing) for many IVRs at one time.
 
 *A **combined prompt media file** will be present if the IVR Prompt has scheduled media that is currently being dynamically managed by this application.*
 
