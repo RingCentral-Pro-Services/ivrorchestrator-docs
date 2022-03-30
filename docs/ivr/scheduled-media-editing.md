@@ -27,7 +27,7 @@ After adding scheudled prompt media, you may drag to rearrange the items to the 
 
 ## Combined Prompt Media File
 
-When IVR Orchestrator is used to manage an IVR's prompt media, it will generate a **combined prompt media file** that is dynamically managed and deployed to the IVR. This file can be found next to the 'Scheduled Media' section title contained within the bkue rectangle similar ins tyle to a button. 
+When IVR Orchestrator is used to manage an IVR's prompt media, it will generate a **combined prompt media file** that is dynamically managed and deployed to the IVR. This file can be found next to the 'Scheduled Media' section title contained within the blue rectangle similar in style to a button. 
 
 Once deplyed, this file can be found in **Media** of this app and in your [RingCentral®](https://ringcentral.com) account.
 

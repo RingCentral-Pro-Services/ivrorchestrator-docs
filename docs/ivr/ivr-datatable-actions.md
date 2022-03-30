@@ -7,7 +7,7 @@ Edit the prompt media configuration for one, or more, IVRs. You must select whic
 
 To edit only one IVR, click on the name of that IVR to open up it's prompt media configuration details.
 
-## Reload
+## Reloads
 Reloads the IVR datatable details and associated prompt media found in your [RingCentral®](https://ringcentral.com) account. Use the reload option to load new IVR data after you make changes in the RingCentral admin portal.
 
 ## Tune 

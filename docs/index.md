@@ -86,8 +86,57 @@ Permissions can be set for each existing role. You may grant read-only or read-w
 
 
 ## Orchestrating Your First IVR Prompts
-under construction, coming soon...
+
+The first step to orchestrating your IVR promtps and creating scheduled media prompts is selecting which IVRs to edit. You may edit a single IVR or many at once by selecting several IVRs in the IVR data table. To add new media as a scheduled media prompt for one or more IVR(s), you will need to choose the media file, idenitfy start and end dates if needed, and place it in the desired position within the scheduled media order.
+
+*Tip: Before orchestrating your first IVR scheduled media prompts, it is best to ensure any media you intend to use is uploaded and all IVRs that you want to edit have default prompt media.*
+
+1. Select the IVRs you want to edit and then click the **Edit** button.
+2. Click **New Prompt** button to open the **New Prompt Dialog Menu**.
+3. Select the position in the scheudled media order for this item. *Default is first available position and items will drop in order if a position is empty.*
+4. Choose the media file that will be used for the prompt media.
+5. Add a start and end date if needed, or select **start now** and **no end date**.
+6. When prompt configurations are finalized, click the **Create** button.
+7. A success or error confirmation dialog will confirm final results.
+8. Click the **Sync Changes** button to save edits and to apply your IVR prompt settings.
+
+You may add new, remove and rearrange the order of scheduled media items but the system will always take-in account each IVR's configuration when bulk editing and creating the **combined prompt media files** when syncing your changes.
 
 ##  Wrapping Up
-under construction, coming soon...
+
+The essential item to remember when using IVR orchestrator is the **combined prompt media files** may differ between IVRs after edits due to different prompt media being used, but all configurations will remain dynamically managed by this application. Any scheduled start and end dates will still change the combined media file for an IVR prompt when they occur and the application will automattically shuffle the prompt media depending on your settings.
+
+Below is collection of useful tips that will help guide you on your IVR orchesatration journey:
+
+*[Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.
+
+Inital Setup Guidance:
+
+* A user with a* **super admin** *role on the RingCentral account must perform the initial role-enablement for other users of this application.
+
+* RO is read-only access or view mode. The users of the role type cannot make any edits if RO is enabled for that section of the app.
+
+* RW is read-write or edit mode. Users of that role type can change settings in that section of the app.
+
+Editing IVR Prompts:
+
+* Before orchestrating your first IVR scheduled media prompts, it is best to ensure any media you intend to use is uploaded and all IVRs that you want to edit have default prompt media.
+
+* A combined prompt media file will be present if the IVR Prompt has scheduled prompt media and is being dynamically managed by this application.
+
+* Be aware when scheduling prompts across IVR’s in different time zones or site time formats (12h or 24h). For example, if you are bulk editing IVR’s across both the central and mountain time zones to schedule a prompt, and specify 3pm as the start time, it will be scheduled as 3pm central time and 3pm mountain time (no localization is performed).
+
+* Deleting and editing schedule prompt media and default media will require you to **Sync Changes** before your edits are applied to the IVR(s)
+
+Media:
+
+* The **combined prompt media files** can be found in the media section of this app and in your RingCentral account after syncing changes.
+
+* Media imported into this application will appear in the RingCentral account media library.
+
+* Media added directly to the RingCentral account media library will appear in this application.
+
+* Deleted media will be removed from both this app and the RingCentral Office account media library.
+
+* Hit the 'play' icon next to any audio file to preview it.
 
