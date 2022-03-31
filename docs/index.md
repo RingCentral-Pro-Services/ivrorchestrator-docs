@@ -87,7 +87,7 @@ Permissions can be set for each existing role. You may grant read-only or read-w
 
 ## Orchestrating Your First IVR Prompts
 
-The first step to orchestrating your IVR promtps and creating scheduled media prompts is selecting which IVRs to edit. You may edit a single IVR or many at once by selecting several IVRs in the IVR data table. To add new media as a scheduled media prompt for one or more IVR(s), you will need to choose the media file, idenitfy start and end dates if needed, and place it in the desired position within the scheduled media order.
+The first step to orchestrating your IVR prompts and creating scheduled media prompts is selecting which IVRs to edit. You may edit a single IVR or many at once by selecting several IVRs in the IVR data table. To add new media as a scheduled media prompt for one or more IVR(s), you will need to choose the media file, idenitfy start and end dates if needed, and place it in the desired position within the scheduled media order.
 
 *Tip: Before orchestrating your first IVR scheduled media prompts, it is best to ensure any media you intend to use is uploaded and all IVRs that you want to edit have default prompt media.*
 
