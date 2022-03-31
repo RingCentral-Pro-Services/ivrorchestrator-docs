@@ -42,6 +42,8 @@ Scheduling a prompt allows you to define a start and end date and time during wh
 
 * Be aware when scheduling prompts across IVR’s in different time zones or site time formats (12h or 24h). For example, if you are bulk editing IVR’s across both the central and mountain time zones to schedule a prompt, and specify 3pm as the start time, it will be scheduled as 3pm central time and 3pm mountain time (no localization is performed).
 
+Learn more about [Scheduling IVR Prompts](ivr/bulk-ivr-editing) for IVRs in your RingCentral Office account.
+
 ## Optional Naming Convention
 
 IVR’s using the optional naming convention described below are further recognized by this application. These values are used to create custom columns in the IVR section data table that allows for grouping/filtering based on unique business-specific logic.
@@ -60,6 +62,8 @@ Each key:value pair represents an individual column in the IVR section data tabl
 
 This allows bulk operations to be executed across user-defined datasets, for example changing the IVR prompts on all stores/locations in region 12.
 
+Learn more about [Optional Naming Conventions](ivr/optional-naming-convention) feature.
+
 ## Media
 
 Media refers to the actual audio files that callers hear when interacting with an IVR. The media section of this application displays a list of all media present in your RingCentral account. You may also add new media and remove existing media.
@@ -74,6 +78,8 @@ This section is fully integrated to the media library in your RingCentral accoun
 
 Any media that is present can be used for orchestration activities across a single or multiple IVR prompts.
 
+Learn more about [Importing New Media](media/import-new-media) and how you manage audio files with IVR Orchestrator.
+
 ## Users
 
 The users section allows you to define which roles from your RingCentral account will have access to this application and what permissions the users having those roles will be granted. It also shows what users from your account have logged into the application.
@@ -83,6 +89,8 @@ A list of all roles present in your RingCentral account is automatically populat
 The built-in super admin role is hardcoded with permanent RW access to avoid the potential of accidentally getting locked out. *A user with a* **super admin** *role on the RingCentral account must perform the initial role-enablement for other users this application.*
 
 Permissions can be set for each existing role. You may grant read-only or read-write access to each individual section of this application to any given role.
+
+Learn more about [Editing Role Permissions](users/editing-role-permissions) and enabling access for other user roles.
 
 
 ## Orchestrating Your First IVR Prompts
@@ -108,9 +116,9 @@ The essential item to remember when using IVR orchestrator is the **combined pro
 
 Below is collection of useful tips that will help guide you on your IVR orchesatration journey:
 
-*[Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.
+*[Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.*
 
-Inital Setup Guidance:
+## Inital Setup Guidance:
 
 * A user with a* **super admin** *role on the RingCentral account must perform the initial role-enablement for other users of this application.
 
@@ -118,7 +126,7 @@ Inital Setup Guidance:
 
 * RW is read-write or edit mode. Users of that role type can change settings in that section of the app.
 
-Editing IVR Prompts:
+## Tips on Editing IVR Prompts
 
 * Before orchestrating your first IVR scheduled media prompts, it is best to ensure any media you intend to use is uploaded and all IVRs that you want to edit have default prompt media.
 
@@ -128,7 +136,7 @@ Editing IVR Prompts:
 
 * Deleting and editing schedule prompt media and default media will require you to **Sync Changes** before your edits are applied to the IVR(s)
 
-Media:
+## Prompt media file notes
 
 * The **combined prompt media files** can be found in the media section of this app and in your RingCentral account after syncing changes.
 

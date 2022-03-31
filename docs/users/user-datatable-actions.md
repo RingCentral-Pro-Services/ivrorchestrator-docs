@@ -1,9 +1,9 @@
 The **User datatable actions** are the primary way to interact with the users datatable. These actions can be found directly above the datatable.
 
-![Datatable actions](../assets/datatable-actions.png "Datatable actions")
+![Users datatable actions](../assets/users-roles-datatable-actions.png "Users Datatable actions")
 
 ## Users and Roles Tabs
-Switch between the [Users datatable](users/user-datatable) view and the Roles datatable view.
+Switch between the Users datatable view and the [Roles datatable](users/roles-datatable) view.
 
 ## Export
 The export icon ( ![Export Icon](../assets/export-icon.svg "Export Icon") ) will export all entries in the datatable to .xlsx file format. *Alternatively, you can select the checkbox(es) next to the row item(s) to export only the selected entries.*

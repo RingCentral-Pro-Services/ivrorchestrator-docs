@@ -10,3 +10,5 @@ This menu has five (5) options that can be used for locating your [IVR Orchestra
 * **Change log-** links to the change log.
 * **About-** build information and acknowledgements.
 * **Sign out-** sign out of the application (terminates current session).
+
+![IVR Orchestrator Profile Menu](../assets/profile-menu.png "IVR Orchestrator Profile Menu")

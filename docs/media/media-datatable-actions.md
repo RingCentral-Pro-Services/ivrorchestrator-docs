@@ -1,6 +1,6 @@
 The **Media datatable actions** are the primary way to interact with the prompt media found in your account. The actions can be found directly above the datatable. *Some actions can be engaged immediately but the **Delete** action requires selecting the checkbox(es) next to the row item before it will become available:*
 
-![Datatable actions](../assets/datatable-actions.png "Datatable actions")
+![Media datatable actions](../assets/media-datatable-actions.png "Media datatable actions")
 
 ## Import
 Import new prompt media files. The system accepts .mp3 and .wav files and these will also be available in your RingCentral account.

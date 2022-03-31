@@ -7,7 +7,7 @@ The **Users datatable**, under the users tab, displays the users that have acces
 * **Role-** the role assigned to this user.
 * **Last Login-** the the last time this user logged into the IVR Orchestrator.
 
-The Roles tab displays the roles and the associated permissions they might have regarding their access to [IVR Orchestrator](https://ivrorchestrator.ps.ringcentral.com). Visit the [roles dataable](users/roles-datatable) to learn more.
+The Roles tab displays the roles and the associated permissions they might have regarding their access to [IVR Orchestrator](https://ivrorchestrator.ps.ringcentral.com). Visit the [roles data table](users/roles-datatable) page to learn more.
 
 ## Sorting
 By default the data is sorted by the **First Name** value in a descending order. To change the sort order of a column click the name of the column you would like to sort. It will cycle through the following options:

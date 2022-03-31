@@ -1,6 +1,6 @@
 The **IVR datatable actions** are the primary way to interact with your IVRs prompt media configurations. The actions can be found directly above the datatable. *Some actions can be engaged immediately but the **Edit** action requires selecting the checkbox(es) next to the IVR(s) before it will become available:*
 
-![Datatable actions](../assets/datatable-actions.png "Datatable actions")
+![IVR datatable actions](../assets/ivr-datatable-actions.png "IVR datatable actions")
 
 ## Edit
 Edit the prompt media configuration for one, or more, IVRs. You must select which IVR(s) you want to edit by engaging the checkbox in front of the IVR's name to make this action available.
