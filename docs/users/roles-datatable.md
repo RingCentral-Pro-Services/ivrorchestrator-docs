@@ -15,11 +15,11 @@ Learn more in [Editing Role Permissions](users/editing-role-permissions).
 The built-in super admin role is hardcoded with permanent RW access to avoid the potential of accidentally getting locked out. *A user with a* **super admin** *role on the RingCentral account must perform the initial role-enablement for other users of this application.*
 
 ## Sorting
-By default the data is sorted by the **Role Name** value in a descending order. To change the sort order of a column click the name of the column you would like to sort. It will cycle through the following options:
+By default the data is sorted by the **Role Name** value in a descending order. To change the sort order of a column click the ![Next Page Icon](../assets/next.svg "Next Page Icon") sort arrows next to the column name you would like to sort. It will cycle through the following options:
 
 * **Descending-** first click
 * **Ascending-** second click
-* **Default-** third clicks
+* **Default-** third click
 
 ## Pagination
 At the bottom of the datatable are the pagination elements. To the left is the **page selection** that allows you to select a page and to the right are the **rows per page** and **total entries**.
@@ -27,10 +27,8 @@ At the bottom of the datatable are the pagination elements. To the left is the *
 ### Pagination Options
 Quickly traverse between all of the pages in the datatable by clicking on a page number or by clicking the pagination buttons displayed to the left and right of the page numbers:
 
-* ![First Page Icon](../assets/first-page-icon.svg "First Page Icon") first page
-* ![Previous Page Icon](../assets/previous-page-icon.svg "Previous Page Icon") previous page
-* ![Next Page Icon](../assets/next-page-icon.svg "Next Page Icon") next page
-* ![Last Page Icon](../assets/last-page-icon.svg "Last Page Icon") last page
+* ![Previous Page Icon](../assets/back.svg "Previous Page Icon") previous page
+* ![Next Page Icon](../assets/next.svg "Next Page Icon") next page
 
 When there are more than 3 pages, an empty page box will appear. Enter the desired page number and then click outside the box or hit enter to quickly view the specified page.
 

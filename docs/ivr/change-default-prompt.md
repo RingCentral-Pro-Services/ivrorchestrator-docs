@@ -4,6 +4,8 @@ This application will combine all scheduled media with the default prompt media 
 
 Changing the default prompt media can be done in bulk, to more than one IVR at once. Learn more about [Bulk Editing Default Prompts](ivr/bulk-ivr-editing).
 
+![Default prompt media](../assets/default-media.png "Default prompt media")
+
 ## Editing Default Prompt Media
 
 To edit the default prompt media, **click on the IVR name** or the checkbox to select and then click the **Edit** button from the main IVR datatable. 

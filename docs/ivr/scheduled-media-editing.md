@@ -6,6 +6,8 @@ Learn more about [Bulk Editing Scheudled Prompts](ivr/bulk-ivr-editing) for many
 
 *A **combined prompt media file** will be present if the IVR Prompt has scheduled media that is currently being dynamically managed by this application.*
 
+![Scheduled prompts and combined media file](../assets/scheduled-prompt-media.png "Scheduled prompts and combined media file")
+
 ## Schedule New Media Prompts
 
 To add new media as a scheduled media prompt for an IVR, you will need to choose the media file, idenitfy start and end dates if needed, and place it in the desired position within the scheduled media order.
@@ -19,7 +21,7 @@ To add new media as a scheduled media prompt for an IVR, you will need to choose
 
 * After any actions to an IVR Prompt, the application will require you to **Sync Changes** or you will lose your edits. 
 
-After adding scheudled prompt media, you may drag to rearrange the items to the desired positions using the **move** icon located on the left side of the scheduled prompt rows. 
+After adding scheudled prompt media, you may drag to rearrange the items to the desired positions using the ![Move icon](../assets/move.svg "Move icon") move icon located on the left side of the scheduled prompt rows. 
 
 *You may schedule up to five (5) additional prompts in addition to the default prompt media.*
 
@@ -31,6 +33,6 @@ When IVR Orchestrator is used to manage an IVR's prompt media, it will generate 
 
 Once deplyed, this file can be found in **Media** of this app and in your [RingCentral®](https://ringcentral.com) account.
 
-* Hit the 'play' icon next to the file to preview the combined prompt media file.
+* Hit the ![Play icon](../assets/play.svg "Play icon") play icon next to the file to preview the combined prompt media file.
 
 *Combined audio files are named with the following format, 'z + custom-ivr-prompt- + date in numerical format.mp3'. The z in-front ensures these files are at the end of your media files list in the RingCentral admin portal.*

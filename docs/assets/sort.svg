@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Sort Copy</title>
+    <g id="Page-1---New-version-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Table/Text/Dual-Icon-Copy-8" transform="translate(-99.000000, -8.000000)" fill="#DCDDE1">
+            <g id="Fill" transform="translate(94.000000, 4.000000)">
+                <polygon transform="translate(9.000000, 6.000000) rotate(-90.000000) translate(-9.000000, -6.000000) " points="7 10 11 6 7 2"></polygon>
+                <polygon transform="translate(9.000000, 12.000000) rotate(-270.000000) translate(-9.000000, -12.000000) " points="7 16 11 12 7 8"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

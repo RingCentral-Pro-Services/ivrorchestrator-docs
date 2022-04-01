@@ -52,7 +52,7 @@ Use the following pattern when naming your IVR’s inside of the RingCentral ser
 
 <pre><code>ivrname-key1:value1,key2:value2,key3:value3,key4:value4,key5:value5</code></pre>
 
-Custom columns created in this manner will be indicated by a star icon after the column label in the IVR datatable.
+Custom columns created in this manner will be indicated by a ![Star icon](../assets/star.svg "Star icon") after the column label in the IVR datatable.
 
 *(64) character maximum, including spaces and punctuation. You may specify up to (5) custom key:value pairs separated by commas.*
 
@@ -91,7 +91,6 @@ The built-in super admin role is hardcoded with permanent RW access to avoid the
 Permissions can be set for each existing role. You may grant read-only or read-write access to each individual section of this application to any given role.
 
 Learn more about [Editing Role Permissions](users/editing-role-permissions) and enabling access for other user roles.
-
 
 ## Orchestrating Your First IVR Prompts
 
@@ -146,5 +145,5 @@ Below is collection of useful tips and tricks that will help guide you on your I
 
 * Deleted media will be removed from both this app and the RingCentral Office account media library.
 
-* Hit the 'play' icon next to any audio file to preview it.
+* Hit the ![Play icon](../assets/play.svg "Play icon") play icon next to an audio file to preview it.
 

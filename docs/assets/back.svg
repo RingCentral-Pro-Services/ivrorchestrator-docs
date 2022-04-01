@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Back</title>
+    <g id="Page-1---New-version-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="KrispyKreme---profile-dropdown" transform="translate(-183.000000, -705.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(167.000000, 184.000000)">
+                <g id="Table/Pagination/Floating" transform="translate(0.000000, 513.000000)">
+                    <g id="Back" transform="translate(16.000000, 8.000000)">
+                        <g id="Shape">
+                            <path d="M16,0 C24.836556,-1.623249e-15 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 C7.163444,32 1.082166e-15,24.836556 0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z" id="Color" fill="#000000" opacity="0.049999997"></path>
+                            <g id="State">
+                                <path d="M16,0 C24.836556,-1.623249e-15 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 C7.163444,32 1.082166e-15,24.836556 0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z"></path>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(8.000000, 8.000000)" fill="#000000" opacity="0.25">
+                            <g id="Icon">
+                                <polygon id="Fill" points="7.13333333 12.4666667 8.06666667 11.5333333 5.2 8.66666667 13.3333333 8.66666667 13.3333333 7.33333333 5.2 7.33333333 8.06666667 4.46666667 7.13333333 3.53333333 2.66666667 8"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

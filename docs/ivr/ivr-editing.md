@@ -34,13 +34,13 @@ The scheduled media order identifies the sequence in which the scheduled media f
 
 ## Edit or Delete Scheduled Media Items
 
-To edit or remove a file in the scheduled media order, click the overflow icon on the far right of the item row athen choose **Edit** or **Delete** from the overflow dropdown menu.
+To edit or remove a file in the scheduled media order, click the ![Overflow icon](../assets/overflow.svg "Overflow icon") overflow icon on the far right of the item row and then choose **Edit** or **Delete** from the overflow dropdown menu.
 
 *Deleting and editing prompt media will require you to **Sync Changes** before your edits are applied to the IVR(s)*
 
 ## Reording Scheduled Media Items
 
-Each scheudled media item row can be moved and re-ordered within this list. Clicking and hold on the move icon, and then drag the item into the desired position.
+Each scheudled media item row can be moved and re-ordered within this list. Clicking and hold on the ![Move icon](../assets/move.svg "Move icon") move icon, and then drag the item into the desired position.
 
 *The combined prompt media file will always have the default prompt media as the last media file when combined with the scheduled prompts.*
 

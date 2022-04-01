@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Next</title>
+    <defs>
+        <path d="M16,0 C24.836556,-1.623249e-15 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 C7.163444,32 1.082166e-15,24.836556 0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z" id="path-1"></path>
+        <filter x="-14.1%" y="-14.1%" width="128.1%" height="128.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1---New-version-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="KrispyKreme---profile-dropdown" transform="translate(-480.000000, -702.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(167.000000, 184.000000)">
+                <g id="Table/Pagination/Floating" transform="translate(0.000000, 513.000000)">
+                    <g id="Pagination/Floating" transform="translate(16.000000, 8.000000)">
+                        <g id="Next" transform="translate(300.000000, 0.000000)">
+                            <g id="Shape">
+                                <g id="Color">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                                </g>
+                                <g id="State">
+                                    <path d="M16,0 C24.836556,-1.623249e-15 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 C7.163444,32 1.082166e-15,24.836556 0,16 C-1.082166e-15,7.163444 7.163444,1.623249e-15 16,0 Z"></path>
+                                </g>
+                            </g>
+                            <g id="Icon" transform="translate(8.000000, 8.000000)" fill="#000000">
+                                <polygon id="Fill" points="8.86666667 3.53333333 7.93333333 4.46666667 10.8 7.33333333 2.66666667 7.33333333 2.66666667 8.66666667 10.8 8.66666667 7.93333333 11.5333333 8.86666667 12.4666667 13.3333333 8"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

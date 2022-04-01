@@ -11,7 +11,7 @@ Clicking on the name of any IVR in the data table, or by selecting one or more a
 * **Applied Media-** the current IVR prompt media being used by the IVR when an inbound call occurs.
 * **EXT-** the extension used by this IVR.
 * **Site-** the site this IVR is assigned to.
-* **Custom Fields-** any custom fields pulled by the Optional Naming Convention feature will be displayed after the first four columns and will be indicated as custom fields with the star icon.
+* **Custom Fields-** any custom fields pulled by the Optional Naming Convention feature will be displayed after the first four columns and will be indicated as custom fields with the ![Star icon](../assets/star.svg "Star icon") star icon.
 
 ## Optional Naming Convention
 IVR’s using the optional naming convention are further recognized by this application. These values are used to create custom columns in the IVR section data table that allows for grouping/filtering based on unique business-specific logic.
@@ -19,7 +19,7 @@ IVR’s using the optional naming convention are further recognized by this appl
 Learn more about the [Optional Naming Convention](ivr/optional-naming-convention).
 
 ## Sorting
-By default the data is sorted by the **Name** value in a descending order. To change the sort order of a column click the name of the column you would like to sort. It will cycle through the following options:
+By default the data is sorted by the **Name** value in a descending order. To change the sort order of a column click the ![Sort arrows icon](../assets/sort.svg "Sort arrows icon") sort arrows icon next to the column name you would like to sort. It will cycle through the following options:
 
 * **Descending-** first click
 * **Ascending-** second click
@@ -38,12 +38,8 @@ At the bottom of the datatable are the pagination elements. To the left is the *
 ### Pagination Options
 Quickly traverse between all of the pages in the datatable by clicking on a page number or by clicking the pagination buttons displayed to the left and right of the page numbers:
 
-* ![First Page Icon](../assets/first-page-icon.svg "First Page Icon") first page
-* ![Previous Page Icon](../assets/previous-page-icon.svg "Previous Page Icon") previous page
-* ![Next Page Icon](../assets/next-page-icon.svg "Next Page Icon") next page
-* ![Last Page Icon](../assets/last-page-icon.svg "Last Page Icon") last page
-
-When there are more than 3 pages, an empty page box will appear. Enter the desired page number and then click outside the box or hit enter to quickly view the specified page.
+* ![Previous Page Icon](../assets/back.svg "Previous Page Icon") previous page
+* ![Next Page Icon](../assets/next.svg "Next Page Icon") next page
 
 ### Rows Per Page
 Click on the up or down arrows next to the **rows per page** text to change the number of entries displayed on each page of the datatable:
