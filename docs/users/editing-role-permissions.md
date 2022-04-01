@@ -6,7 +6,7 @@ A list of all roles present in your [RingCentral®](https://ringcentral.com) is 
 
 To enable access to [IVR Orchestrator](https://ivrorchestrator.ps.ringcentral.com) for non-super admin roles, you must engage the first switch, **App Access** for the role you wish to give access.
 
-1. Find the Role you want to give app accesss to.
+1. Find the Role you want to give app access to.
 2. Engage the **App Access** switch to enable and allow users of that role type to login to app.
 3. When **App Access** is enabled the first time, the role will default to **RO or read-only** access by default.
 
@@ -20,7 +20,7 @@ By default, when you engage the **App Access** switch, the role will be given **
 
 ## RW or Read-write Access
 
-If you wish to give users of a given role **edit permissons**, simply flip the assocated permission switch to **RW, or read-write** for that section of the app. 
+If you wish to give users of a given role **edit permissons**, simply flip the associated permission switch to **RW, or read-write** for that section of the app. 
 
 To deliver full app access for a role type, change all switches to the **RW option**. This role type will now have full application access and can edit any section of the app.
 

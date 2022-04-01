@@ -19,14 +19,14 @@ IVR’s using the optional naming convention are further recognized by this appl
 Learn more about the [Optional Naming Convention](ivr/optional-naming-convention).
 
 ## Sorting
-By default the data is sorted by the **Name** value in a descending order. To change the sort order of a column click the ![Sort arrows icon](../assets/sort.svg "Sort arrows icon") sort arrows icon next to the column name you would like to sort. It will cycle through the following options:
+By default the data is sorted by the **Name** value in a descending order. To change the sort order of a column click the Sort arrows icon( ![Sort arrows icon](../assets/sort.svg "Sort arrows icon") ) next to the column name you would like to sort. It will cycle through the following options:
 
 * **Descending-** first click
 * **Ascending-** second click
 * **Default-** third click
 
 ## Overflow Menu
-Each row in the datatable has an overflow icon ( ![Overflow Icon](../assets/overflow-icon.svg "Overflow Icon") ) that, when clicked, will open up a dropdown menu with the following options:
+Each row in the datatable has an Overflow icon ( ![Overflow Icon](../assets/overflow.svg "Overflow Icon") ) that, when clicked, will open up a dropdown menu with the following options:
 
 * **Edit IVR Prompt-** edit the prompt media configuration of the selected IVR.
 
@@ -38,6 +38,7 @@ At the bottom of the datatable are the pagination elements. To the left is the *
 ### Pagination Options
 Quickly traverse between all of the pages in the datatable by clicking on a page number or by clicking the pagination buttons displayed to the left and right of the page numbers:
 
+* Click on a page number to visit that page
 * ![Previous Page Icon](../assets/back.svg "Previous Page Icon") previous page
 * ![Next Page Icon](../assets/next.svg "Next Page Icon") next page
 

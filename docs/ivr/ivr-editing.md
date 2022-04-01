@@ -1,4 +1,4 @@
-This application takes the all prompt media and combines it with the default prompt media into a single audio file that can be dynamically managed and deployed to the RingCentral platform for each IVR. Once you deploy the combined prompt media file for an IVR and sync it, the system will automattically manage it and change the prompt media when scheduled start and end dates occur.
+This application takes the all prompt media and combines it with the default prompt media into a single audio file that can be dynamically managed and deployed to the RingCentral platform for each IVR. Once you deploy the combined prompt media file for an IVR and sync it, the system will automatically manage it and change the prompt media when scheduled start and end dates occur.
 
 Scheduled prompts can be applied to IVR's immediately on an individual basis or in bulk, or they can be scheduled for deployment at a specified start/end date/time.
 
@@ -24,13 +24,13 @@ Creating new scheduled prompts is one of the primary ways to use the application
 
 * **A combined prompt media file** will be present if the IVR Prompt has scheduled media that is dynamically managed by this application.
 
-Click the **New Prompt** button in the upper right to add a new prompt to the scheudled media order for an IVR.
+Click the **New Prompt** button in the upper right to add a new prompt to the scheduled media order for an IVR.
 
 Learn more about [Scheduling IVR Prompts](ivr/scheduled-media-editing).
 
 ## Scheduled Media Order
 
-The scheduled media order identifies the sequence in which the scheduled media files play. The prompts will play in the order 1,2, 3, 4, 5. The only exception is if your scheduled prompts have start and end times. If the scheduled prompt is not within it's time range, it will be excludued from the dynamically combined file.
+The scheduled media order identifies the sequence in which the scheduled media files play. The prompts will play in the order 1,2, 3, 4, 5. The only exception is if your scheduled prompts have start and end times. If the scheduled prompt is not within it's time range, it will be excluded from the dynamically combined file.
 
 ## Edit or Delete Scheduled Media Items
 
@@ -38,9 +38,9 @@ To edit or remove a file in the scheduled media order, click the ![Overflow icon
 
 *Deleting and editing prompt media will require you to **Sync Changes** before your edits are applied to the IVR(s)*
 
-## Reording Scheduled Media Items
+## Re-ording Scheduled Media Items
 
-Each scheudled media item row can be moved and re-ordered within this list. Clicking and hold on the ![Move icon](../assets/move.svg "Move icon") move icon, and then drag the item into the desired position.
+Each scheduled media item row can be moved and re-ordered within this list. Clicking and hold on the ![Move icon](../assets/move.svg "Move icon") move icon, and then drag the item into the desired position.
 
 *The combined prompt media file will always have the default prompt media as the last media file when combined with the scheduled prompts.*
 
@@ -50,4 +50,4 @@ To sync edits and changes to an IVR Prompt, click the **Sync Changes** above the
 
 1. Click the **Sync Changes** button after making edits to an IVR Prompt.
 2. Wait for fail or confirmation dialog for results.
-3. If successful, the new combined media file will be deployed to the IVR Prompt and can now be dyncamially managed in this application.
+3. If successful, the new combined media file will be deployed to the IVR Prompt and can now be dynamically managed in this application.

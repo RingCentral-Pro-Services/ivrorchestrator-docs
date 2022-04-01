@@ -1,7 +1,7 @@
 The main **IVR Datatable** shows all IVR’s found in your [RingCentral®](https://ringcentral.com) account and any values pulled from the IVR names via the **Optional Naming Conventions**. These key:value pairs are used to create custom columns of data in the IVR section data table that allows for grouping/filtering based on unique business-specific logic.
 
 ## Custom Columns and Values
-Any columns of data pulled by the Optional Naming Convention feature will be displayed after the first four columns in the datatable and will also be indicated by a Hit the ![Star icon](../assets/star.svg "Star icon") star icon after the column title in the IVR datatable.
+Any columns of data pulled by the Optional Naming Convention feature will be displayed after the first four columns in the datatable and will also be indicated by the Star icon ( ![Star icon](../assets/star.svg "Star icon") ) after the column title in the IVR datatable.
 
 ## Using the Optional Naming Conventions
 

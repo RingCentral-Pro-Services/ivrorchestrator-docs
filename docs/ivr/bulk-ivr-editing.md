@@ -4,7 +4,7 @@ Bulk editing many IVRs is very similar to editing individual an IVR, but with a 
 
 ## Bulk Editing IVR Prompts
 
-When bulk editing many IVRs and their prompt media, the system will look at each IVR's confgiuration. This means the **combined prompt media file** will be different for each IVR in your selection if their default media or scheduled media differs from one and another.
+When bulk editing many IVRs and their prompt media, the system will look at each IVR's configuration. This means the **combined prompt media file** will be different for each IVR in your selection if their default media or scheduled media differs from one and another.
 
 The default media and the scheduled media order will also reflect the different IVR prompt configurations in your bulk selections. Default media will be displayed as an **empty state** and scheduled media items will be shown as generic **Scheduled media found** row entries in the scheduled media rows if media is found. Due to current limitations we cannot show all prompt configurations for IVRs when bulk editing.
 
@@ -12,7 +12,7 @@ You can perform the same edit actions on a bulk selection that can be done on an
 
 ## Bulk Edit Default Prompt Media
 
-Specific default media will not be shown for each IVR configuration when bulk editing but you may still edit this media during a bulk selection. When editing default media in bulk, you will be able to only select one specific media file for the entire selection. After editing, the choosen file will be shown until you sync and navigate away from the current bulk selection.
+Specific default media will not be shown for each IVR configuration when bulk editing but you may still edit this media during a bulk selection. When editing default media in bulk, you will be able to only select one specific media file for the entire selection. After editing, the chosen file will be shown until you sync and navigate away from the current bulk selection.
 
 * Similar to individual IVR editing, each IVR in your bulk selection must have default media present before you can use this application to apply and sync scheduled media changes.
 
@@ -26,7 +26,7 @@ You may add new, remove and rearrange the order of scheduled media items but the
 
 ## Bulk Delete Scheduled Media Items
 
-You may remove any schduled media items when editing IVR prompt configurations in bulk, but take note that this will remove it from ALL IVR configs in your bulk selection.
+You may remove any scheduled media items when editing IVR prompt configurations in bulk, but take note that this will remove it from ALL IVR configs in your bulk selection.
 
 * Scheduled media items will rearrange in the scheduled media order when items lower in the list are removed and item is above it.
 
