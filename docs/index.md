@@ -52,7 +52,7 @@ Use the following pattern when naming your IVR’s inside of the RingCentral ser
 
 <pre><code>ivrname-key1:value1,key2:value2,key3:value3,key4:value4,key5:value5</code></pre>
 
-Custom columns created in this manner will be indicated by a ![Star icon](../assets/star.svg "Star icon") after the column label in the IVR datatable.
+Custom columns created in this manner will be indicated by a Star icon ( ![Star icon](../assets/star.svg "Star icon") ) after the column label in the IVR datatable.
 
 *(64) character maximum, including spaces and punctuation. You may specify up to (5) custom key:value pairs separated by commas.*
 
@@ -94,13 +94,13 @@ Learn more about [Editing Role Permissions](users/editing-role-permissions) and 
 
 ## Orchestrating Your First IVR Prompts
 
-The first step to orchestrating your IVR prompts and creating scheduled media prompts is selecting which IVRs to edit. You may edit a single IVR or many at once by selecting several IVRs in the IVR data table. To add new media as a scheduled media prompt for one or more IVR(s), you will need to choose the media file, idenitfy start and end dates if needed, and place it in the desired position within the scheduled media order.
+The first step to orchestrating your IVR prompts and creating scheduled media prompts is selecting which IVRs to edit. You may edit a single IVR or many at once by selecting several IVRs in the IVR data table. To add new media as a scheduled media prompt for one or more IVR(s), you will need to choose the media file, identify start and end dates if needed, and place it in the desired position within the scheduled media order.
 
 *Tip: Before orchestrating your first IVR scheduled media prompts, it is best to ensure any media you intend to use is uploaded and all IVRs that you want to edit have default prompt media.*
 
 1. Select the IVRs you want to edit and then click the **Edit** button.
 2. Click **New Prompt** button to open the **New Prompt Dialog Menu**.
-3. Select the position in the scheudled media order for this item. *Default is first available position and items will drop in order if a position is empty.*
+3. Select the position in the scheduled media order for this item. *Default is first available position and items will drop in order if a position is empty.*
 4. Choose the media file that will be used for the prompt media.
 5. Add a start and end date if needed, or select **start now** and **no end date**.
 6. When prompt configurations are finalized, click the **Create** button.
@@ -111,11 +111,11 @@ You may add new, remove and rearrange the order of scheduled media items but the
 
 #  Wrapping Up
 
-The essential item to remember when using IVR orchestrator is the **combined prompt media files** may differ between IVRs after edits due to different prompt media being used, but all configurations will remain dynamically managed by this application. Any scheduled start and end dates will still change the combined media file for an IVR prompt when they occur and the application will automattically shuffle the prompt media depending on your settings.
+The essential item to remember when using IVR orchestrator is the **combined prompt media files** may differ between IVRs after edits due to different prompt media being used, but all configurations will remain dynamically managed by this application. Any scheduled start and end dates will still change the combined media file for an IVR prompt when they occur and the application will automatically shuffle the prompt media depending on your settings.
 
 Below is collection of useful tips and tricks that will help guide you on your IVR orchesatration journey.
 
-## Inital Setup Guidance
+## Initial Setup Guidance
 
 * [Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.
 
