@@ -32,9 +32,9 @@ Learn more about [Scheduling IVR Prompts](ivr/scheduled-media-editing).
 
 The scheduled media order identifies the sequence in which the scheduled media files play. The prompts will play in the order 1,2, 3, 4, 5. The only exception is if your scheduled prompts have start and end times. If the scheduled prompt is not within it's time range, it will be excluded from the dynamically combined file.
 
-## Edit or Delete Scheduled Media Items
+## Edit or Remove Scheduled Media Items
 
-To edit or remove a file in the scheduled media order, click the ![Overflow icon](../assets/overflow.svg "Overflow icon") overflow icon on the far right of the item row and then choose **Edit** or **Delete** from the overflow dropdown menu.
+To edit or remove a file in the scheduled media order, click the ![Overflow icon](../assets/overflow.svg "Overflow icon") overflow icon on the far right of the item row and then choose **Edit** or **Remove** from the overflow dropdown menu.
 
 *Deleting and editing prompt media will require you to **Sync Changes** before your edits are applied to the IVR(s)*
 
