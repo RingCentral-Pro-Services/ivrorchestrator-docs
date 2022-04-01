@@ -113,7 +113,7 @@ You may add new, remove and rearrange the order of scheduled media items but the
 
 The essential item to remember when using IVR orchestrator is the **combined prompt media files** may differ between IVRs after edits due to different prompt media being used, but all configurations will remain dynamically managed by this application. Any scheduled start and end dates will still change the combined media file for an IVR prompt when they occur and the application will automatically shuffle the prompt media depending on your settings.
 
-Below is collection of useful tips and tricks that will help guide you on your IVR orchesatration journey.
+Below is collection of useful tips and tricks that will help guide you on your IVR Orchestration journey.
 
 ## Initial Setup Guidance
 

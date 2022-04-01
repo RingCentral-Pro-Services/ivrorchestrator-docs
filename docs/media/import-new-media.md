@@ -15,7 +15,7 @@ To add one or more media file (s):
 
 When you click the **Import** button, you will see the **Import Dialog Menu**. Here you can upload one or more files and the system will display feedback as the file is uploaded. Errors will also be displayed here and the user can remove and upload again if an error is encountered.
 
-* To remove a file after it has been imported, simply hover over the item and then click the **Trash Can** icon.
+* To remove a file after it has been imported, simply hover over the item and then click Trash icon( ![Trash icon](../assets/remove.svg "Trash icon") ) to remove it from the Import Dialog Upload queue.
 
 
 ## Media File Formats
