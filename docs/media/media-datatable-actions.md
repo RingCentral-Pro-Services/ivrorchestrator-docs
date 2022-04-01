@@ -12,11 +12,11 @@ Permanently delete the prompt media file(s) from IVR Orchestrator and your RingC
 
 *This action cannot be undone. Make sure you no longer want the media in your account before deleting it.*
 
-## Reload
-Reloads the Media datatable prompt media and details found in your [RingCentral®](https://ringcentral.com) account. Use the reload option to load new media after you make changes in the RingCentral admin portal.
+## Reloads
+The Reload icon ( ![Reload icon](../assets/reload.svg "Reload icon") )will pull all IVR datatable details and associated prompt media data found in your [RingCentral®](https://ringcentral.com) account. Use the reload option to load new IVR data after you make changes in the RingCentral admin portal.
+
+## Tune 
+The Tune icon ( ![Tune icon](../assets/tune.svg "Tune icon") ) allows you to toggle on and off the Applied Media, Ext and Site columns from being shown in the datatable. Use this feature to de-clutter your view when you are using the Optional Naming Convention feature to include custom datatable columns.
 
 ## Export
-The export icon ( ![Export Icon](../assets/export-icon.svg "Export Icon") ) will export all entries in the datatable to .xlsx file format. *Alternatively, you can select the checkbox(es) next to the row item(s) to export only the selected entries.*
-
-## Filter
-The filter icon ( ![Filter Icon](../assets/filter-icon.svg "Filter Icon") ) opens the filter options menu. Here you can use preset filters options from the dropdown menu and then type your keyword to filter the datatable. To add another filter, click the **'Add Filter'** button below the last entry. To clear all filters, click on the **'Clear All'** button.
+The export icon ( ![Export icon](../assets/export.svg "Export icon") ) will export all entries in the datatable to .xlsx file format. *Alternatively, you can select the checkbox(es) next to the row item(s) to export only the selected entries.*
