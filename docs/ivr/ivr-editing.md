@@ -1,10 +1,10 @@
-This application takes the all prompt media and combines it with the default prompt media into a single audio file that can be dynamically managed and deployed to the RingCentral platform for each IVR.
+This application takes the all prompt media and combines it with the default prompt media into a single audio file that can be dynamically managed and deployed to the RingCentral platform for each IVR. Once you deploy the combined prompt media file for an IVR and sync it, the system will automattically manage it and change the prompt media when scheduled start and end dates occur.
 
 Scheduled prompts can be applied to IVR's immediately on an individual basis or in bulk, or they can be scheduled for deployment at a specified start/end date/time.
 
 *[Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.*
 
-Learn more about [Bulk Editing IVRs](ivr/bulk-ivr-editing).
+Learn more about [Bulk Editing IVRs](ivr/bulk-ivr-editing) and scheduling prompt media for many IVRs at one time.
 
 ## Editing IVR Prompts
 
@@ -22,11 +22,11 @@ Learn more about [Default Prompt Media](ivr/bulk-ivr-editing).
 
 Creating new scheduled prompts is one of the primary ways to use the application. This area also identifies the **combined prompt media file** that is dynamically managed and deployed to the IVR(s) when using this application.
 
-* A combined prompt media file will be present if the IVR Prompt has scheduled media that is dynamically managed by this application.
+* **A combined prompt media file** will be present if the IVR Prompt has scheduled media that is dynamically managed by this application.
 
-Click the **New Prompt** button in the upper right to add a new prompt to the scheudled media order.
+Click the **New Prompt** button in the upper right to add a new prompt to the scheudled media order for an IVR.
 
-Learn more about [Scheduling IVR Prompts](ivr/bulk-ivr-editing).
+Learn more about [Scheduling IVR Prompts](ivr/scheduled-media-editing).
 
 ## Scheduled Media Order
 

@@ -8,7 +8,7 @@
 * **API integration** to your RingCentral media library and IVR’s.
 * Customizable **role-based access and granular permissions** control.
 
-See the **quick start** below or visit the [user guide](user-guide/interface) for full documentation.
+See the **quick start** below or visit the [user guide](general/profile-menu) for full documentation.
 
 # Quick Start
 
@@ -42,7 +42,7 @@ Scheduling a prompt allows you to define a start and end date and time during wh
 
 * Be aware when scheduling prompts across IVR’s in different time zones or site time formats (12h or 24h). For example, if you are bulk editing IVR’s across both the central and mountain time zones to schedule a prompt, and specify 3pm as the start time, it will be scheduled as 3pm central time and 3pm mountain time (no localization is performed).
 
-Learn more about [Scheduling IVR Prompts](ivr/bulk-ivr-editing) for IVRs in your RingCentral Office account.
+Learn more about [Scheduling IVR Prompts](ivr/ivr-editing) for IVRs in your RingCentral Office account.
 
 ## Optional Naming Convention
 
@@ -110,15 +110,15 @@ The first step to orchestrating your IVR prompts and creating scheduled media pr
 
 You may add new, remove and rearrange the order of scheduled media items but the system will always take-in account each IVR's configuration when bulk editing and creating the **combined prompt media files** when syncing your changes.
 
-##  Wrapping Up
+#  Wrapping Up
 
 The essential item to remember when using IVR orchestrator is the **combined prompt media files** may differ between IVRs after edits due to different prompt media being used, but all configurations will remain dynamically managed by this application. Any scheduled start and end dates will still change the combined media file for an IVR prompt when they occur and the application will automattically shuffle the prompt media depending on your settings.
 
-Below is collection of useful tips that will help guide you on your IVR orchesatration journey:
+Below is collection of useful tips and tricks that will help guide you on your IVR orchesatration journey.
 
-*[Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.*
+## Inital Setup Guidance
 
-## Inital Setup Guidance:
+* [Multi-Level IVR's](https://support.ringcentral.com/article/6562.html) must be implemented on the account to use this application.
 
 * A user with a* **super admin** *role on the RingCentral account must perform the initial role-enablement for other users of this application.
 
