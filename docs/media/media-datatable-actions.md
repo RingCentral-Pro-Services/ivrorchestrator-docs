@@ -13,7 +13,7 @@ Permanently delete the prompt media file(s) from IVR Orchestrator and your RingC
 *This action cannot be undone. Make sure you no longer want the media in your account before deleting it.*
 
 ## Reloads
-The Reload icon ( ![Reload icon](../assets/reload.svg "Reload icon") )will pull all IVR datatable details and associated prompt media data found in your [RingCentral®](https://ringcentral.com) account. Use the reload option to load new IVR data after you make changes in the RingCentral admin portal.
+The Reload icon ( ![Reload icon](../assets/restart.svg "Reload icon") )will pull all IVR datatable details and associated prompt media data found in your [RingCentral®](https://ringcentral.com) account. Use the reload option to load new IVR data after you make changes in the RingCentral admin portal.
 
 ## Tune 
 The Tune icon ( ![Tune icon](../assets/tune.svg "Tune icon") ) allows you to toggle on and off the Applied Media, Ext and Site columns from being shown in the datatable. Use this feature to de-clutter your view when you are using the Optional Naming Convention feature to include custom datatable columns.
