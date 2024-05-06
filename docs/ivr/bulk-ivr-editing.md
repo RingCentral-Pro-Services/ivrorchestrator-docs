@@ -2,7 +2,7 @@ Bulk editing many IVRs is very similar to editing individual an IVR, but with a 
 
 * After any bulk actions to IVR Prompts, the application will require you to **Sync Changes** or you will lose your edits.
 
-## Bulk Editing IVR Prompts
+## Bulk Editing IVR Prompt
 
 When bulk editing many IVRs and their prompt media, the system will look at each IVR's configuration. This means the **combined prompt media file** will be different for each IVR in your selection if their default media or scheduled media differs from one and another.
 
